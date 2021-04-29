@@ -3,8 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Instructor Engin =new Instructor("Engin","Demiroğ","Mühendislik Fakültesi","edmrgg@gmail.com",5000,"Yazılım Eğitmeni");
-		Student Bunyamin=new Student("Bünyamin","Karayağız","Mühendislik Fakültesi","bkz@gmail.com","123456798",12,"Bilgisayar Mühendisliği");
+		Instructor Engin =new Instructor("Engin","Demirog","MÃ¼hendislik FakÃ¼ltesi","edmrgg@gmail.com",5000,"YazÃ½lÃ½m EÃ°itmeni");
+		Student Bunyamin=new Student("BÃ¼nyamin","KarayaÃ°Ã½z","MÃ¼hendislik FakÃ¼ltesi","bkz@gmail.com","123456798",12,"Bilgisayar MÃ¼hendisliÃ°i");
 		InstructorManager instructorManager=new InstructorManager();
 		StudentManager studentManager=new StudentManager();
 		instructorManager.giris(Engin);
