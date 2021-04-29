@@ -34,7 +34,7 @@ public class Student extends User{
 	public String getBolum() {
 		return bolum;
 	}
-	public void setBölüm(String bolum) {
+	public void setBolumm(String bolum) {
 		this.bolum = bolum;
 	}
 	
