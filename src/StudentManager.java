@@ -4,16 +4,25 @@ public class StudentManager extends UserManager {
 	
 	public void giris(Student user) {
 		
-		
 		super.giris(user);
-		System.out.println("Öğrenci Adı:"+user.getName());
-		System.out.println("Öğrenci Soyadı:"+user.getSurName());
-		System.out.println("Öğrenci Numarası:"+user.getStudentNumber());
-		System.out.println("Öğrenci Maili:"+user.geteMail());
-		System.out.println("Öğrenci Fakültesi:"+user.getFaculty());
-		System.out.println("Öğrenci Bölümü:"+user.getBolum());
-		System.out.println("Öğrencinin Ders Sayısı:"+user.getNumberOfLessons());
+		System.out.println("Ã–Ã°renci AdÃ½:"+user.getName());
+		System.out.println("Ã–Ã°renci SoyadÃ½:"+user.getSurName());
+		System.out.println("Ã–Ã°renci NumarasÃ½:"+user.getStudentNumber());
+		System.out.println("Ã–Ã°renci Maili:"+user.geteMail());
+		System.out.println("Ã–Ã°renci FakÃ¼ltesi:"+user.getFaculty());
+		System.out.println("Ã–Ã°renci BÃ¶lÃ¼mÃ¼:"+user.getBolum());
+		System.out.println("Ã–Ã°rencinin Ders SayÃ½sÃ½:"+user.getNumberOfLessons());
 			
+	}
+	
+	
+	
+	public void delete(Student userDelete) {
+		super.delete(userDelete);
+		userDelete.setBolum(null);
+		userDelete.setNumberOfLessons(0);
+		userDelete.setStudentNumber(null);
+		
 	}
 	
 	
