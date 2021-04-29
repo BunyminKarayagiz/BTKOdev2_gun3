@@ -1,2 +1,1 @@
-# BTKOdev_3
- Odev_3
+# 3.Gün 2.Ödev
