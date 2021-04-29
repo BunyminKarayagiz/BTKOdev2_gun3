@@ -25,7 +25,7 @@ public class Instructor extends User{
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public String setNeEgitmeni() {
+	public String getNeEgitmeni() {
 		return neEgitmeni;
 	}
 	public void setNeEgitmeni(String neEgitmeni) {
