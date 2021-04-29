@@ -5,11 +5,11 @@ public class InstructorManager extends UserManager {
 	
 	public void giris(Instructor user) {
 		super.giris(user);
-		System.out.println("Eğitmen Adı:"+user.getName());
-		System.out.println("Eğitmen Soyadı:"+user.getSurName());
-		System.out.println("Eğitmen Fakültesi:"+user.getFaculty());
-		System.out.println("Eğitmen Maili:"+user.geteMail());
-		System.out.println("Eğitmen Bölümü:"+user.neEgitmeni());
+		System.out.println("EÃ°itmen AdÃ½:"+user.getName());
+		System.out.println("EÃ°itmen SoyadÃ½:"+user.getSurName());
+		System.out.println("EÃ°itmen FakÃ¼ltesi:"+user.getFaculty());
+		System.out.println("EÃ°itmen Maili:"+user.geteMail());
+		System.out.println("EÃ°itmen BÃ¶lÃ¼mÃ¼:"+user.getNeEgitmeni());
 	}
 	
 	
