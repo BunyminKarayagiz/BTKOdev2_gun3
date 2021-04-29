@@ -16,7 +16,8 @@ public class StudentManager extends UserManager {
 	}
 	
 	
-	
+	//Override gibi iş görüyor ama "@Override" olduğunda hata alıyorum.
+	//Çözümü için parametre kısmını "User" yerinde "Student" yaptım.
 	public void delete(Student userDelete) {
 		super.delete(userDelete);
 		userDelete.setBolum(null);
